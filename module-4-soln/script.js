@@ -10,13 +10,13 @@ Good Bye Jaanu
 Hello Keshav
 Hello Frenchi
 Hello Sagar
-Hello logan
+Hello Logan
 Hello Laura
 Good Bye Jim
 */
 
 (function() {
-    var names = ["Yamraj", "Jaan", "Jini", "Jaanu", "Keshav", "Frenchi", "Sagar", "logan", "Laura", "Jim"];
+    var names = ["Yamraj", "Jaan", "Jini", "Jaanu", "Keshav", "Frenchi", "Sagar", "Logan", "Laura", "Jim"];
     for (var i = 0; i < names.length; i++) {
         var firstLetter = names[i].charAt(0).toLowerCase();
         if (firstLetter === 'j') {
